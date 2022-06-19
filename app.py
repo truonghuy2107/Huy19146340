@@ -11,9 +11,9 @@ shape_model = load_model('shapeface_model.h5')
 age_model = load_model('age_model.h5')
 gender_model = load_model('gender_model.h5')
 
-shape_labels=['Heart   ','Oblong','Oval    ','Round   ','Square']
+shape_labels=['Heart','Oblong','Oval','Round','Square']
 age_labels = ['18','19','20','21','22','23','24','25','26','27']
-gender_labels =['Female','Male    ']
+gender_labels =['Female','Male']
 
 age=""
 gender=""
